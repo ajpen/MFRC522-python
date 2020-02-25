@@ -1,0 +1,3 @@
+[submodule "SPI-Py"]
+	path = SPI-Py
+	url = https://github.com/lthiery/SPI-Py.git
