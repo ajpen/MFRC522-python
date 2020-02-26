@@ -16,7 +16,7 @@ class SequentialReader():
                 """Card Detected"""
             (status, backData) = Reader.MFRC522_Anticoll()
             if status == Reader.MI_OK:
-                data = "".join(data)
+                data = "".join(backData)
                 data_read = True
 
         Reader.GPIO_CLEEN()
@@ -33,7 +33,7 @@ class SequentialReader():
                 """Card Detected"""
             (status, backData) = Reader.MFRC522_Anticoll()
             if status == Reader.MI_OK:
-                data = "".join(data)
+                data = "".join(backData)
                 data_read = True
 
         Reader.GPIO_CLEEN()
