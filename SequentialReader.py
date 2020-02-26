@@ -20,6 +20,8 @@ class SequentialReader():
                 data_read = True
 
         Reader.GPIO_CLEEN()
+        return data
+
 
     def ReadCE1(self):
         data = None
@@ -35,3 +37,4 @@ class SequentialReader():
                 data_read = True
 
         Reader.GPIO_CLEEN()
+        return data
